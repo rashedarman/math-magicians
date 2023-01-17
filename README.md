@@ -9,6 +9,16 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [📖 About the Project](#about-project)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -19,6 +29,70 @@
 # 📖 Math Magicians <a name="about-project"></a>
 
 **Math Magicians** is a single-page web application built with React. It features custom-built calculator and allows seamless navigation between different pages.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+- HTML
+- CSS
+- JavaScript/React
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Node.JS
+- Yarn
+
+### Setup
+
+Clone this repository to your desired folder:
+
+`git clone git@github.com:rashedarman/math-magicians.git`
+
+### Install
+
+Install this project with:
+
+```sh
+  cd math-magicians
+  yarn install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  yarn start
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  yarn run test
+```
+
+### Deployment
+
+You can deploy this project using:
+
+```sh
+  yarn build
+```
+
+Platforms I recommend: vercel and netlify
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
