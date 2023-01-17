@@ -3,3 +3,7 @@
 body {
   font-family: 'Inconsolata', monospace;
 }
+
+button[type='button'] {
+  cursor: pointer;
+}

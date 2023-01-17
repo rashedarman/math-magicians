@@ -1,0 +1,38 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.zero {
+  grid-column: span 2;
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 8rem);
+  grid-template-rows: repeat(6, 4rem);
+}
+
+.output {
+  grid-column: 1/-1;
+  padding: 0.75rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: right;
+  color: hsl(0, 0%, 94%);
+  background: hsl(0, 0%, 40%);
+  border: none;
+  outline: none;
+}
+
+.button {
+  font-size: 1rem;
+  font-weight: 700;
+  border: 1px solid hsl(0, 0%, 80%);
+}
+
+.button.secondary {
+  background-color: hsl(33, 100%, 50%);
+}
