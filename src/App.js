@@ -1,8 +1,10 @@
 import './App.css';
 import Calculator from './components/Calculator';
 
-function App() {
-  return <Calculator />;
+class App {
+  render() {
+    return <Calculator />;
+  }
 }
 
 export default App;
