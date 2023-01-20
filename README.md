@@ -21,6 +21,7 @@
   - [Deployment](#triangular_flag_on_post-deployment)
 - [📖 About the Project](#about-project)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [📝 License](#license)
@@ -110,6 +111,14 @@ Platforms I recommend: vercel and netlify
 - GitHub: [@rashedarman](https://github.com/rashedarman)
 - Twitter: [@rashedarman21](https://twitter.com/rashedarman21)
 - LinkedIn: [Rashed Arman](https://linkedin.com/in/rashedarman)
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] Implement a state manager
+- [ ] Add quotes page
+- [ ] Deploy the application
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
