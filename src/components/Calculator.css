@@ -1,3 +1,8 @@
+:root {
+  --clr-dark: hsl(0, 0%, 30%);
+  --clr-light: hsl(0, 0%, 94%);
+}
+
 .container {
   height: 100vh;
   display: flex;
@@ -5,7 +10,7 @@
   align-items: center;
 }
 
-button.zero {
+#zero-btn {
   grid-column: span 2;
 }
 
@@ -21,18 +26,33 @@ button.zero {
   font-size: 1.3rem;
   font-weight: 700;
   text-align: right;
-  color: hsl(0, 0%, 94%);
-  background: hsl(0, 0%, 40%);
+  color: var(--clr-light);
+  background: var(--clr-dark);
   border: none;
   outline: none;
 }
 
-.button {
-  font-size: 1rem;
+.btn {
+  font-size: 1.1rem;
   font-weight: 700;
   border: 1px solid hsl(0, 0%, 80%);
+  transition:
+    color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 
-.button.secondary {
-  background-color: hsl(33, 100%, 50%);
+.btn-light:hover {
+  color: var(--clr-light);
+  background-color: var(--clr-dark);
+  border-color: var(--clr-dark);
+}
+
+.btn-secondary {
+  color: var(--clr-light);
+  background-color: hsl(39, 100%, 50%);
+}
+
+.btn-secondary:hover {
+  background-color: hsl(39, 100%, 60%);
 }
