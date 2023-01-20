@@ -11,6 +11,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -37,6 +38,14 @@
 - HTML
 - CSS
 - JavaScript/React
+
+### Key Features <a name="key-features"></a>
+
+- Basic math operations (addition, subtraction, multiplication, division)
+- User-friendly interface for easy navigation
+- Get a new math-related quote every day
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
