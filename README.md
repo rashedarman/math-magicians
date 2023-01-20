@@ -30,6 +30,8 @@
 
 **Math Magicians** is a single-page web application built with React. It features custom-built calculator and allows seamless navigation between different pages.
 
+![image](https://user-images.githubusercontent.com/78993606/213771728-f6b32bd9-c0d5-48ae-8c79-b1d2ee9d3786.png)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
