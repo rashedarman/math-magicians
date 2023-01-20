@@ -11,6 +11,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -20,6 +21,7 @@
   - [Deployment](#triangular_flag_on_post-deployment)
 - [📖 About the Project](#about-project)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [📝 License](#license)
@@ -39,6 +41,14 @@
 - HTML
 - CSS
 - JavaScript/React
+
+### Key Features <a name="key-features"></a>
+
+- Basic math operations (addition, subtraction, multiplication, division)
+- User-friendly interface for easy navigation
+- Get a new math-related quote every day
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -103,6 +113,14 @@ Platforms I recommend: vercel and netlify
 - GitHub: [@rashedarman](https://github.com/rashedarman)
 - Twitter: [@rashedarman21](https://twitter.com/rashedarman21)
 - LinkedIn: [Rashed Arman](https://linkedin.com/in/rashedarman)
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] Implement a state manager
+- [ ] Add quotes page
+- [ ] Deploy the application
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
