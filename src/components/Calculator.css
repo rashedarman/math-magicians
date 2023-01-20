@@ -23,9 +23,10 @@
 .output {
   grid-column: 1/-1;
   padding: 0.75rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-align: right;
+  line-height: 2;
   color: var(--clr-light);
   background: var(--clr-dark);
   border: none;
