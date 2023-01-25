@@ -12,6 +12,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -47,6 +48,12 @@
 - Basic math operations (addition, subtraction, multiplication, division)
 - User-friendly interface for easy navigation
 - Get a new math-related quote every day
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live: Math Magicians](https://math-magicians.up.railway.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,7 +109,10 @@ You can deploy this project using:
   yarn build
 ```
 
-Platforms I recommend: vercel and netlify
+Recommended platforms:
+- Railway
+- Vercel
+- Netlify
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,9 +128,9 @@ Platforms I recommend: vercel and netlify
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Implement a state manager
+- [x] Deploy the application
 - [ ] Add quotes page
-- [ ] Deploy the application
+- [ ] Implement a state manager
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
