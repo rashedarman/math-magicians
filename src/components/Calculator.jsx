@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import calculate from '../logic/calculate';
-import './Calculator.css';
+import './Calculator.scss';
 
 function Calculator() {
   const [calcData, setCalcData] = useState({
@@ -51,7 +51,7 @@ function Calculator() {
       <button type="button" className="secondary">
         +
       </button>
-      <button type="button" id="zero-btn">
+      <button type="button" className="zero-btn">
         0
       </button>
       <button type="button">.</button>
