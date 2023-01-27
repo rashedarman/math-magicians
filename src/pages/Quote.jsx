@@ -5,7 +5,16 @@ class QuotePage extends React.Component {
   render() {
     return (
       <PageWrapper>
-        <h1>Quote</h1>
+        <p
+          style={{
+            fontSize: '2rem',
+            fontWeight: '500',
+            textAlign: 'center',
+          }}
+        >
+          Mathematics is not about numbers, equations, computations, or
+          alogrithms; it is about understanding. -William Paul Thuston
+        </p>
       </PageWrapper>
     );
   }
