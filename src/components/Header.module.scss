@@ -1,3 +1,5 @@
+@use '../variables' as *;
+
 nav {
   display: flex;
   align-items: center;
@@ -15,6 +17,19 @@ nav {
     li:not(:first-child)::before {
       content: ' | ';
       margin: 0 0.5rem;
+    }
+  }
+
+  a {
+    color: $color-dark;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:visited {
+      color: $color-dark;
     }
   }
 }
