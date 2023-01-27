@@ -1,0 +1,11 @@
+@use '../../variables' as *;
+
+footer {
+  background-color: darken($color-light, 10%);
+  padding: 1.5rem 0;
+
+  .copyright-text {
+    font-size: 16px;
+    text-align: center;
+  }
+}

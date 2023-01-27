@@ -1,0 +1,35 @@
+@use '../../variables' as *;
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+
+    li:not(:first-child)::before {
+      content: ' | ';
+      margin: 0 0.5rem;
+    }
+  }
+
+  a {
+    color: $color-dark;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:visited {
+      color: $color-dark;
+    }
+  }
+}

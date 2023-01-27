@@ -1,0 +1,10 @@
+#main-layout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  & > .children {
+    place-self: center;
+    width: 100%;
+  }
+}

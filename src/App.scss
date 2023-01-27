@@ -1,0 +1,17 @@
+@use './variables' as *;
+@use './reset.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@400;500&display=swap');
+
+body {
+  font-family: $font-primary;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
