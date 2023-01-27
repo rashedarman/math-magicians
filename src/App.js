@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.scss';
+import Home from './pages/Home';
 
 class App extends React.Component {
   render() {
-    return null;
+    return <Home />;
   }
 }
 
