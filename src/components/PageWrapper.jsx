@@ -10,7 +10,7 @@ class PageWrapper extends React.Component {
     return (
       <div id={styles['main-layout']}>
         <Header />
-        <div className={styles.children}>{children}</div>
+        <div className={`${styles.children} container`}>{children}</div>
         <Footer />
       </div>
     );
