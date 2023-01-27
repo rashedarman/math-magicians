@@ -1,6 +1,6 @@
 import React from 'react';
 import Calculator from '../components/Calculator';
-import PageWrapper from '../components/PageWrapper';
+import PageWrapper from '../components/layout/PageWrapper';
 
 class CalculatorPage extends React.Component {
   render() {
