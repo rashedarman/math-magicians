@@ -5,7 +5,7 @@ class CalculatorPage extends React.Component {
   render() {
     return (
       <PageWrapper>
-        <h1>Home</h1>
+        <h1>Calculator</h1>
       </PageWrapper>
     );
   }

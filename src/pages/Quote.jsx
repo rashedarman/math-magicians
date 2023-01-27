@@ -5,7 +5,7 @@ class QuotePage extends React.Component {
   render() {
     return (
       <PageWrapper>
-        <h1>Home</h1>
+        <h1>Quote</h1>
       </PageWrapper>
     );
   }
